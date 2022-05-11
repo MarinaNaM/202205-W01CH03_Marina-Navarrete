@@ -19,13 +19,10 @@
     display: inline;
 }
 
-.submenu__li {
-    display: none;
-}
-
 .body {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .body__titles {
@@ -40,6 +37,7 @@
     font-size: 120%;
     font-weight: 700;
     margin: 0 auto 5px 0;
+    color: rgb(237, 100, 54);
 }
 
 .second-title {
@@ -47,10 +45,6 @@
     font-size: 220%;
     font-weight: 900;
     margin: 0 auto;
-}
-
-.body__bottom {
-    display: flex;
 }
 
 .images__gallery {
@@ -62,7 +56,24 @@
     margin-right: 20px;
 }
 div > img {
-    width: 35px;
-    height: 340px;
+    width: 380px;
+    height: 360px;
     border-radius: 30px;
+}
+
+.bottom1 {
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(237, 100, 54);
+    border-radius: 6px;
+    font-size: 100%;
+    border-radius: 0 15px 15px 15px;
+    padding: 10px;
+}
+
+.bottom {
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(237, 100, 54);
+    border-radius: 0 15px 15px 15px;
+    font-size: 100%;
+    padding: 10px;
 }
